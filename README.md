@@ -37,7 +37,7 @@ version: "2"
 
 services:
   pubsub:
-    image: singularities/pubsub-emulator
+    image: ehacke/pubsub-emulator
     environment:
       - PUBSUB_PROJECT_ID=project-test
       - PUBSUB_LISTEN_ADDRESS=0.0.0.0:8432
